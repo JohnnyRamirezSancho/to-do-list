@@ -1,6 +1,6 @@
 # Proyecto To Do List
 ## PROYECTO
-<a href="http://johnnyramirez.es/f5/To-Do-List/index.jpg" target="_blank"><img src="http://johnnyramirez.es/f5/To-Do-List/index.jpg" alt="Index" width="200"></a>
+<a href="http://johnnyramirez.es/f5/To-Do-List/index.jpg" target="_blank"><img src="http://johnnyramirez.es/f5/To-Do-List/index.jpg" alt="Index" width="200"></a>   
 Se nos solicita crear una aplicación web en la que podamos añadir, mostrar, modificar y eliminar elementos.
 Se nos adjunta, como inspiración, un ejemplo visual.
 ## PARTES DEL PROYECTO
