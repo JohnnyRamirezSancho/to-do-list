@@ -1,4 +1,4 @@
-import addUser from "./addUser";
+import addUser from "./addUser.js";
 
 const nameAddUser = document.getElementById("nameAddUser");
 const btnAddUser = document.getElementById("btnAddUser");

@@ -1,6 +1,6 @@
-import activateButtons from "./activateButtons";
-import { listUsers } from "./addUser";
-import listOrderAsc from "./listOrderAsc";
+import activateButtons from "./activateButtons.js";
+import { listUsers } from "./addUser.js";
+import listOrderAsc from "./listOrderAsc.js";
 
 export default function listAllUsers(idUser) {
     let list = "";

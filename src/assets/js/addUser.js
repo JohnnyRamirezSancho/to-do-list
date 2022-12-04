@@ -1,5 +1,5 @@
-import listAllUsers from "./listAllUsers";
-import textNameUserValid from "./textNameUserValid";
+import listAllUsers from "./listAllUsers.js";
+import textNameUserValid from "./textNameUserValid.js";
 
 export let listUsers = [];
 

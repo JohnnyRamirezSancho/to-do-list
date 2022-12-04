@@ -1,6 +1,6 @@
-import { listUsers } from "./addUser";
-import listAllUsers from "./listAllUsers";
-import textNameUserValid from "./textNameUserValid";
+import { listUsers } from "./addUser.js";
+import listAllUsers from "./listAllUsers.js";
+import textNameUserValid from "./textNameUserValid.js";
 
 export default function UpdateUser(nameUser, idUser) {
     console.log(nameUser);

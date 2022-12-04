@@ -1,7 +1,7 @@
-import activateUpdateUser from "./activateUpdateUser";
-import closeUpdateUser from "./closeUpdateUser";
-import UpdateUser from "./UpdateUser";
-import deleteUser from "./deleteUser";
+import activateUpdateUser from "./activateUpdateUser.js";
+import closeUpdateUser from "./closeUpdateUser.js";
+import UpdateUser from "./UpdateUser.js";
+import deleteUser from "./deleteUser.js";
 
 export default function activateButtons() {
     let buttonsDel = document.querySelectorAll('.delete-button');

@@ -1,5 +1,5 @@
-import { listUsers } from "./addUser";
-import listAllUsers from "./listAllUsers";
+import { listUsers } from "./addUser.js";
+import listAllUsers from "./listAllUsers.js";
 
 export default function deleteUser(nameUser, idUser) {
     if (!confirm(`Are you sure you want to remove ${nameUser}?`)) {
