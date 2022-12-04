@@ -20,8 +20,8 @@ Añadimos las funciones solicitadas:
 - Modificar cualquier elemento
 - Borrar cualquier elemento
 
-Así mismo, Se muestran en pantalla una serie de alertas:
-- No se haintroducido ningún nombre para añadir o modificar
+Así mismo, se muestran en pantalla una serie de alertas:
+- No se ha introducido ningún nombre para añadir o modificar
 - El nombre está repetido
 - Solicitud de confirmación de borrado o modificación de un elemento
 - Confirmación de que el elemento ha sido añadido
