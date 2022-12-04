@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --gray: #444444;
+    --blue: #3388B4;
+    --orangeTrans: rgba(251, 128, 76, 0.5);
+    --orange: #FB804C;
+}
+
+body {
+    max-width: 600px;
+    min-width: 360px;
+    margin: 0 auto 25px auto;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: var(--gray)
+}
+
+h2 {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}

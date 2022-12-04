@@ -10,18 +10,23 @@
 </head>
 
 <body>
+    <header>
+        <img src="./assets/img/crud.jpg" alt="CRUD">
+    </header>
     <main>
-        <section id="addUSer">
-            <input type="text" name="nameAddUser" id="nameAddUser">
-            <input type="button" name="btnAddUser" id="btnAddUser">
+        <section id="add-user">
+            <h2>Add element</h2>
+            <input type="text" name="nameAddUser" id="nameAddUser" placeholder="Name">
+            <button name="btnAddUser" id="btnAddUser" class="btn-add-user"></button>
         </section>
-        <section id="listUser">
-            <ul id="ulListUsers">                
+        <section id="listUsers">
+            <h2>List element</h2>
+            <ul id="ulListUsers">
             </ul>
         </section>
     </main>
 
-    <script src="./assets/js/app.js" type="module"></script>
+    <script src="./assets/js/main.js" type="module"></script>
 </body>
 
 </html>

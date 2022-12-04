@@ -1,0 +1,25 @@
+#ulListUsers input {
+    width: 80%;
+}
+
+.btn-update {
+    background: url(../img/create.jpg);
+    background-size: cover;
+    transition: all 0.4s;
+}
+
+.btn-update:hover {
+    transform: scale(1.2);
+    border-color: var(--orange);
+}
+
+.btn-cancel-update {
+    background: url(../img/cancel.jpg);
+    background-size: cover;
+    transition: all 0.4s;
+}
+
+.btn-cancel-update:hover {
+    transform: scale(1.2);
+    border-color: var(--orange);
+}
