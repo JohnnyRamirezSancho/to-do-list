@@ -1,0 +1,32 @@
+#add-user {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+#add-user h2 {
+    position: absolute;
+    padding: 0 6px;
+    background: #fff;
+    top: -14px;
+    left: 13px;
+    display: inline;
+}
+
+#nameAddUser {
+    width: 90%;
+}
+
+.btn-add-user {
+    background: url(../img/create.jpg);
+    background-size: cover;
+    transition: all 0.4s;
+}
+
+.btn-add-user:hover {
+    transform: scale(1.2);
+    border-color: var(--orange);
+}

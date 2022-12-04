@@ -1,0 +1,81 @@
+#listUsers {
+    position: relative;
+    padding: 30px 5px 0 5px;
+}
+
+#listUsers h2 {
+    position: absolute;
+    padding: 0 6px;
+    background: #fff;
+    top: -14px;
+    left: 13px;
+    display: inline;
+}
+
+#ulListUsers {
+    display: block;
+    width: 100%;
+}
+
+#ulListUsers :last-child {
+    border-bottom: none;
+    margin-bottom: 5px;
+}
+
+#ulListUsers li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: 1px solid var(--blue);
+    padding: 25px 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+}    
+
+#ulListUsers p {
+    padding: 5px;
+    width: 80%;
+}
+
+#lastUser {
+    animation-name: lastUser;
+    animation-duration: 8s;
+    animation-fill-mode: forwards
+}
+
+@keyframes lastUser {
+    25%   {background-color: var(--orangeTrans);}
+    75%   {background-color: var(--orangeTrans);}
+    100%   {background-color: none;}
+}
+
+.delete-button {
+    background: url(../img/delete.jpg);
+    background-size: cover;
+    transition: all 0.4s;
+}
+
+.delete-button:hover {
+    transform: scale(1.2);
+    border-color: var(--orange);
+}
+
+.update-button {
+    background: url(../img/update.jpg);
+    background-size: cover;
+    transition: all 0.4s;
+}
+
+.update-button:hover {
+    transform: scale(1.2);
+    border-color: var(--orange);
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}

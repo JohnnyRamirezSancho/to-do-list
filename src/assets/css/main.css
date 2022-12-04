@@ -1,0 +1,21 @@
+section {
+    padding: 30px 20px;
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+    position: relative;
+}
+
+input {
+    height: 40px;
+    padding: 2px 6px;
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    font-size: inherit;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid var(--blue);
+}
